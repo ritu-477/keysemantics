@@ -3,9 +3,9 @@ import Lottie from 'react-lottie-player'
 import lottieJson from '../lottie/key-semantics-layer.json'
 import mobileLayer from '../lottie/mobile-layer.json'
 
-const Keysemantics = () => {
+const KeySemanticsApi = () => {
   return (
-    <div className='semantics-bg lg:pb-[74px] md:pb-14 sm:pb-12 pb-6'>
+    <div className='semantics-bg sm:pb-12 pb-6'>
       <div className='container'>
         <Lottie className='!lg:h-[588px] !max-w-[1200px] md:block hidden mx-auto overflow-hidden'
           loop
@@ -23,4 +23,4 @@ const Keysemantics = () => {
   )
 }
 
-export default Keysemantics
+export default KeySemanticsApi

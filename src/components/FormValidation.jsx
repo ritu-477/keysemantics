@@ -38,7 +38,7 @@ const FormValidation = () => {
   return (
     <div className='lg:py-24 md:py-14 sm:py-12 py-6 bg-navy-blue'>
       <div className='container relative'>
-        <img className='absolute left-0 -top-24' src="/assets/images/webp/form-left-ellipse.webp" alt="left-ellipse" />
+        <img className='absolute left-0 -top-24 lg:block hidden' src="/assets/images/webp/form-left-ellipse.webp" alt="left-ellipse" />
         <img className='absolute right-0 -bottom-24 lg:block hidden' src="/assets/images/webp/form-right-ellipse.webp" alt="right-ellipse" />
         <Heading classStyle={'text-center text-white'} text={'How does KeySemantics work?'} />
         <Description
@@ -48,7 +48,7 @@ const FormValidation = () => {
         <div className='max-w-[399px] mx-auto w-full lg:pt-[64px] md:pt-14 sm:pt-12 pt-8'>
           <form onSubmit={handleSubmit} className='space-y-2'>
             {FORM_DATA.map((data) => (
-              <div key={data.id} className="max-w-[320px] rounded-[48px] bg-purple mx-auto py-4 px-5">
+              <div key={data.id} className="max-w-[320px] rounded-[48px] bg-purple mx-auto py-3 px-4 sm:py-4 sm:px-5">
                 <input
                   id={data.id}
                   type={data.id === 'email' ? 'email' : 'text'}

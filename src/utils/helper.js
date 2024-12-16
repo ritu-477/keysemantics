@@ -1,5 +1,5 @@
-import LottieOne from "../lottie/background-layer.json"
-import LottieThree from "../lottie/key-bg-layer.json"
+import LottieOne from "../lottie/documents-layer.json"
+import LottieThree from "../lottie/enterprise.json"
 import LottieTwo from "../lottie/trade-layer.json"
 
 export const HOW_WORKS = [

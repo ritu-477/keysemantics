@@ -6,7 +6,7 @@ const Hero = () => {
   return (
       <div className='sm:pt-[47px] pt-8 bg-hero-bg bg-cover bg-no-repeat bg-center lg:bg-[100%_100%] bg-ice-white'>
           <Header />
-          <div className='container lg:pt-[198px] lg:pb-[287px] md:pt-36 sm:pt-20 pt-16 md:pb-56 sm:pb-44 pb-32'>
+          <div className='container lg:pt-[198px] lg:pb-[287px] md:py-36 sm:py-20 py-16'>
               <div className='flex flex-col items-center'>
                   < h1 className='lg:text-custom-2xl lg:leading-custom-4xl md:text-5xl sm:text-4xl text-custom-xl leading-10 font-bold text-navy-blue text-center mx-auto max-w-[720px]' >AI - Powered Search as a Service</h1>
                   <p className='sm:text-2xl text-xl font-medium text-center sm:pt-8 pt-6'>Unlock your content with KeySemantics.</p>

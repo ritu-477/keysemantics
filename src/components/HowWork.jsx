@@ -2,7 +2,7 @@ import React from 'react'
 import Heading from '../common/Heading'
 import Description from '../common/Description'
 import { HOW_WORKS } from '../utils/helper'
-import Keysemantics from './Keysemantics'
+import Keysemantics from './KeySemanticsApi'
 import Lottie from 'react-lottie-player'
 
 
@@ -28,7 +28,6 @@ const HowWork = () => {
           </div>
      
       </div>
-      <Keysemantics />
     </div>
   )
 }
