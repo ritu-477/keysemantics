@@ -1,4 +1,5 @@
 import React from 'react'
+import BackToTop from './BackToTop';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -11,6 +12,7 @@ const Footer = () => {
           <a className='text-xs md:leading-7 leading-5 text-soft-indigo' href="/">info@keysemantics.ch</a>
         </div>
       </div>
+      <BackToTop/>
     </div>
   )
 }
