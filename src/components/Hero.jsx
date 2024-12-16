@@ -4,7 +4,7 @@ import CustomButton from '../common/CustomButton'
 
 const Hero = () => {
   return (
-      <div className='sm:pt-[47px] pt-8 bg-hero-bg bg-cover bg-no-repeat bg-center lg:bg-[100%_100%] bg-ice-white'>
+      <div className='sm:pt-[47px] pt-8 bg-hero-bg bg-cover bg-no-repeat bg-center lg:bg-[100%_100%] bg-ice-white lg:min-h-[900px]'>
           <Header />
           <div className='container lg:pt-[198px] lg:pb-[287px] md:py-36 sm:py-20 py-16'>
               <div className='flex flex-col items-center'>
