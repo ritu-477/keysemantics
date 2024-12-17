@@ -4,7 +4,7 @@ import { HEADLESS_DATA } from '../utils/helper'
 
 const HeadlessFederated = () => {
   return (
-    <div className='lg:py-[74px] md:py-14 sm:py-12 py-6 bg-ice-white'>
+    <div className='lg:py-[74px] sm:py-12 py-6 bg-ice-white'>
       <div className='container'>
         <div className='flex sm:gap-12 gap-8 lg:flex-row flex-col max-lg:flex-col-reverse'>
           <div className='lg:w-[558px] w-full flex flex-col justify-center max-lg:items-center'>
