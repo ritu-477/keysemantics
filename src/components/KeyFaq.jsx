@@ -18,7 +18,7 @@ const KeyFaq = () => {
       <div className='container lg:pt-[82px] md:pt-14 sm:pt-12 pt-6 lg:pb-[74px] md:pb-14 sm:pb-12 pb-6'>
         <div className='flex lg:flex-row flex-col w-full sm:gap-12 gap-8'>
           <div className='lg:w-[600px] w-full flex max-lg:justify-center'>
-            <img className='max-w-[600px] w-full h-full object-cover' src="/assets/images/webp/faq-women-image.webp" alt="women-image" />
+            <img className='max-w-[600px] w-full h-full object-cover rounded-lg' src="/assets/images/webp/faq-women-image.webp" alt="women-image" />
           </div>
           <div className='lg:w-[555px] w-full'>
             <Heading text={'Key Q&A'} classStyle={'lg:text-start text-center'} />
@@ -39,7 +39,7 @@ const KeyFaq = () => {
                   >
                     <span>{item.heading}</span>
                     <svg
-                      className={`transform transition-transform duration-500 size-4 sm:size-6 ${activeIndex === index ? 'rotate-0' : 'rotate-180'
+                      className={`transform transition-transform duration-500 size-4 sm:size-6 ${activeIndex === index ? 'rotate-180' : 'rotate-0'
                         }`}
                       width="24"
                       height="24"

@@ -45,10 +45,10 @@ const FormValidation = () => {
           classStyle={'text-center text-white pt-2'}
           text={'Request a demo for your team and let us show you how KeySemantics can help your company'}
         />
-        <div className='max-w-[399px] mx-auto w-full lg:pt-[64px] md:pt-14 sm:pt-12 pt-8'>
+        <div className='max-w-[399px] mx-auto w-full lg:pt-[64px] md:pt-14 pt-8'>
           <form onSubmit={handleSubmit} className='space-y-2'>
             {FORM_DATA.map((data) => (
-              <div key={data.id} className="max-w-[320px] rounded-[48px] bg-purple mx-auto py-3 px-4 sm:py-4 sm:px-5">
+              <div key={data.id} className="lg:max-w-[320px] w-full rounded-[48px] bg-purple mx-auto py-3 px-4 sm:py-[14px] sm:px-5">
                 <input
                   id={data.id}
                   type={data.id === 'email' ? 'email' : 'text'}
@@ -64,7 +64,7 @@ const FormValidation = () => {
               By submitting my contact information I agree to the KeySemantics Privacy Policy
             </p>
             <div className='flex justify-center pt-4'>
-              <CustomButton classStyle={'bg-sky-blue text-white hover:bg-soft-indigo '} text={'Request a demo'} type='submit' />
+              <CustomButton classStyle={'bg-sky-blue text-white hover:bg-soft-indigo !py-[15.2px] !px-[31.4px]'} text={'Request a demo'} type='submit' />
             </div>
           </form>
         </div>

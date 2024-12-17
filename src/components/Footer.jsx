@@ -9,7 +9,7 @@ const Footer = () => {
       <div className='container'>
         <div className='flex md:justify-between items-center max-md:flex-col justify-center max-md:gap-2'>
           <p className='text-xs md:leading-7 leading-5 text-soft-indigo md:text-start text-center'>©{currentYear} KeySemantics GmbH | Ramsenburgweg 24, 9100 Herisau, Switzerland</p>
-          <a className='text-xs md:leading-7 leading-5 text-soft-indigo' href="/">info@keysemantics.ch</a>
+          <a className='text-xs md:leading-7 leading-5 text-soft-indigo underline' href="/">info@keysemantics.ch</a>
         </div>
       </div>
       <BackToTop/>

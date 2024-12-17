@@ -11,7 +11,7 @@ const HeadlessFederated = () => {
             <CommonCard classStyle="!text-left" heading="Headless federated search" text="Get a demo" list={HEADLESS_DATA} />
           </div>
           <div className='lg:w-[600px] w-full flex max-lg:justify-center'>
-            <img className='max-w-[600px] w-full' src="/assets/images/webp/headless-image.webp" alt="data-image" />
+            <img className='max-w-[600px] rounded-lg w-full' src="/assets/images/webp/headless-image.webp" alt="data-image" />
           </div>
         </div>
       </div>

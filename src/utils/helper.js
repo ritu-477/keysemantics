@@ -32,11 +32,13 @@ export const workItems = [
         alt: 'Animation 1',
         description: "Websites, documents and images are pushed into our Analysis API."
     },
+    
     {
         src: LottieTwo,
         alt: 'Animation 2',
         description: "Using highly optimized and trained AI models, we analyze, vectorize and extract semantic information and relations from your content."
     },
+
     {
         src: LottieThree,
         alt: 'Animation 3',
