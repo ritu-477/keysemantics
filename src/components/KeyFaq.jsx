@@ -14,7 +14,7 @@ const KeyFaq = () => {
   };
 
   return (
-    <div className='bg-ice-white'>
+    <div className='bg-ice-white max-md:-mt-6'>
       <div className='container lg:pt-[82px] sm:pt-12 pt-6 lg:pb-[74px] sm:pb-12 pb-6'>
         <div className='flex lg:flex-row flex-col w-full sm:gap-12 gap-8'>
           <div className='lg:w-[600px] w-full flex max-lg:justify-center'>
