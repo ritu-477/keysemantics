@@ -15,7 +15,7 @@ const CommonCard = ({ text, heading, list, classStyle }) => {
                 ))}
             </ul>
             <div className="flex lg:justify-start justify-center">
-                <CustomButton text={text} /> 
+                <CustomButton classStyle={'sm:!px-[14.6px] sm:!py-[11.3px]'} text={text} /> 
           </div>
         </div>
     );

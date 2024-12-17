@@ -17,8 +17,8 @@ const KeyFaq = () => {
     <div className='bg-ice-white max-md:-mt-6'>
       <div className='container lg:pt-[82px] sm:pt-12 pt-6 lg:pb-[74px] sm:pb-12 pb-6'>
         <div className='flex lg:flex-row flex-col w-full sm:gap-12 gap-8'>
-          <div className='lg:w-[600px] w-full flex max-lg:justify-center'>
-            <img className='max-w-[600px] w-full h-full object-cover rounded-lg' src="/assets/images/webp/faq-women-image.webp" alt="women-image" />
+          <div className='lg:w-[600px] w-full flex max-lg:justify-center lg:sticky h-fit top-4'>
+            <img className='max-w-[600px] w-full rounded-lg' src="/assets/images/webp/faq-women-image.webp" alt="women-image" />
           </div>
           <div className='lg:w-[555px] w-full'>
             <Heading text={'Key Q&A'} classStyle={'lg:text-start text-center'} />
@@ -82,7 +82,7 @@ const KeyFaq = () => {
               ))}
             </div>
             <div className='sm:pt-6 pt-4 flex max-lg:justify-center'>
-              <CustomButton text={'Get a demo'} />
+              <CustomButton classStyle={'sm:!px-[14.6px] sm:!py-[11.3px]'} text={'Get a demo'} />
             </div>
           </div>
         </div>
