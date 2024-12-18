@@ -16,7 +16,7 @@ const HowWork = () => {
               <div key={index} className="flex flex-col">
                 <Lottie className='sm:w-[278px] sm:h-[190px]'
                        loop
-                      animationData={obj.src}
+                      animationData={obj.image}
                      play
                   />
                 <Description
