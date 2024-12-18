@@ -60,7 +60,7 @@ const KeySemanticsFormWork = () => {
                 />
               </div>
             ))}
-            <p className='text-custom-base leading-custom-base text-center text-soft-indigo lg:text-nowrap pt-2'>
+            <p className='text-custom-sm leading-custom-base text-center text-soft-indigo lg:text-nowrap pt-2'>
               By submitting my contact information I agree to the KeySemantics Privacy Policy
             </p>
             <div className='flex justify-center pt-4'>

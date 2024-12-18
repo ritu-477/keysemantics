@@ -30,7 +30,8 @@ module.exports = {
       },
 
       fontSize: {
-        'custom-base': "10px",
+        'custom-sm': "10px",
+        'custom-base': "28px",
         'custom-xl': "32px",
         'custom-2xl': "64px",
       },
