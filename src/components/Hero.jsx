@@ -3,7 +3,7 @@ import Header from './Header'
 
 const Hero = () => {
   return (
-      <div className='sm:pt-[47px] pt-8 bg-hero-bg bg-cover bg-no-repeat !bg-center lg:bg-[100%_100%] bg-ice-white lg:min-h-[900px]'>
+      <div className='lg:pt-[47px] md:pt-10 pt-8 bg-hero-bg bg-cover bg-no-repeat !bg-center lg:bg-[100%_100%] bg-ice-white lg:min-h-[900px]'>
           <Header />
           <div className='container lg:pt-[198px] max-lg:py-24 max-md:py-16 max-sm:py-14'>
               <div className='flex flex-col items-center'>
