@@ -2,7 +2,7 @@ import LottieThree from "../lottie/documents-layer.json"
 import LottieOne from "../lottie/enterprise.json"
 import LottieTwo from "../lottie/trade-layer.json"
 
-export const HOW_WORKS = [
+export const HOW_WORKS_DATA = [
     {
         image: LottieOne,
         alt: 'Animation-one',
@@ -23,27 +23,6 @@ export const HOW_WORKS = [
             'Our enterprise-grade semantic search engine allows you to query your content in many ways. You’ll be amazed by the speed, precision and relevance of the results!',
     },
 
-];
-
-
-export const workItems = [
-    {
-        src: LottieOne,
-        alt: 'Animation 1',
-        description: "Websites, documents and images are pushed into our Analysis API."
-    },
-    
-    {
-        src: LottieTwo,
-        alt: 'Animation 2',
-        description: "Using highly optimized and trained AI models, we analyze, vectorize and extract semantic information and relations from your content."
-    },
-
-    {
-        src: LottieThree,
-        alt: 'Animation 3',
-        description: "Our enterprise-grade semantic search engine allows you to query your content in many ways. You’ll be amazed by the speed, precision and relevance of the results!"
-    }
 ];
 
 export const SECURITY_DATA = [
@@ -102,7 +81,6 @@ export const ACCORDION_DATA = [
         content: `Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
     },
 ];
-
 
 export const FORM_DATA = [
     { id: 'name', label: 'Name', placeholder: 'Name', required: true },

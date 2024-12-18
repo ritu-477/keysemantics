@@ -12,7 +12,6 @@ const Footer = () => {
           <a target="_blank" className="text-xs md:leading-7 leading-5 text-soft-indigo underline" href="mailto:info@keysemantics.ch">info@keysemantics.ch</a>
         </div>
       </div>
-      <BackToTop/>
     </div>
   )
 }

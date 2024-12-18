@@ -2,7 +2,6 @@ import React from 'react'
 import { SECURITY_DATA } from '../utils/helper'
 import CommonCard from '../common/CommonCard'
 
-
 const DataSecurity = () => {
   return (
       <div className='lg:pt-[74px] sm:pt-12 pt-6 lg:pb-[164px] md:pb-[64px] pb-12 bg-ice-white'>

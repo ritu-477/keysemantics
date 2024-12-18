@@ -8,6 +8,7 @@ import KeySemanticsFormWork from './components/KeySemanticsFormWork';
 import HeadlessFederated from './components/HeadlessFederated';
 import Footer from './components/Footer';
 import KeySemanticsApi from './components/KeySemanticsApi'
+import BackToTop from './components/BackToTop';
 
 function App() {
   return (
@@ -16,10 +17,12 @@ function App() {
       <HowWork />
       <KeySemanticsApi />
       <KeyFaq />
-      <HeadlessFederated/>
+      <HeadlessFederated />
       <DataSecurity />
       <KeySemanticsFormWork />
       <Footer />
+      <BackToTop />
+
     </>
   );
 }
