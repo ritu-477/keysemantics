@@ -4,7 +4,7 @@ import DataSecurity from './components/DataSecurity';
 import Hero from './components/Hero';
 import HowWork from './components/HowWork';
 import KeyFaq from './components/KeyFaq';
-import FormValidation from './components/FormValidation';
+import KeySemanticsFormWork from './components/KeySemanticsFormWork';
 import HeadlessFederated from './components/HeadlessFederated';
 import Footer from './components/Footer';
 import KeySemanticsApi from './components/KeySemanticsApi'
@@ -18,7 +18,7 @@ function App() {
       <KeyFaq />
       <HeadlessFederated/>
       <DataSecurity />
-      <FormValidation/>
+      <KeySemanticsFormWork />
       <Footer />
     </>
   );

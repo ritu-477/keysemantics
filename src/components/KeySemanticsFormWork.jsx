@@ -5,7 +5,7 @@ import CustomButton from '../common/CustomButton';
 import { FORM_DATA } from '../utils/helper';
 import swal from 'sweetalert';
 
-const FormValidation = () => {
+const KeySemanticsFormWork = () => {
   const formState = {
     name: '',
     email: '',
@@ -73,4 +73,4 @@ const FormValidation = () => {
   );
 };
 
-export default FormValidation;
+export default KeySemanticsFormWork;

@@ -52,7 +52,7 @@ const KeyFaq = () => {
                         fill="#191A42"
                       />
                     </svg>
-                  </button>
+                  </button> 
                   <div
                     ref={(el) => (contentRefs.current[index] = el)}
                     style={{
