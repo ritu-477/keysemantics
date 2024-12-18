@@ -5,7 +5,7 @@ import mobileLayer from '../lottie/mobile-layer.json'
 
 const KeySemanticsApi = () => {
   return (
-    <div className='semantics-bg sm:pb-8'>
+    <div className='semantics-bg sm:pb-8 !lg:h-[588px]'>
       <div className='container'>
         <Lottie className='!lg:h-[588px] !max-w-[1200px] md:block hidden mx-auto overflow-hidden'
           loop

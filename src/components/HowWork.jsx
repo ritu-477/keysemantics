@@ -12,16 +12,16 @@ const HowWork = () => {
       <div className="container">
         <Heading classStyle="text-center" text="How does KeySemantics work?" />
           <div className="flex lg:justify-between max-lg:gap-5 flex-wrap justify-center max-w-[1026px] mx-auto w-full lg:pt-14 pt-8">
-            {HOW_WORKS.map((work,index) => (
+            {HOW_WORKS.map((obj,index) => (
               <div key={index} className="flex flex-col">
                 <Lottie className='sm:w-[278px] sm:h-[190px]'
                        loop
-                      animationData={work.src}
+                      animationData={obj.src}
                      play
                   />
                 <Description
                   classStyle="sm:max-w-[284px] w-full mx-auto text-center sm:pt-6 pt-4"
-                  text={work.description}
+                  text={obj.description}
                 />
               </div>
             ))}
