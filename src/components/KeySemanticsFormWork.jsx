@@ -36,7 +36,7 @@ const KeySemanticsFormWork = () => {
   };
 
   return (
-    <div className='lg:py-24 md:py-14 sm:py-12 py-6 bg-navy-blue'>
+    <div className='lg:py-24 md:py-14 sm:py-12 py-12 bg-navy-blue'>
       <div className='container relative'>
         <img className='absolute left-0 -top-24 lg:block hidden' src="/assets/images/webp/form-left-ellipse.webp" alt="left-ellipse" />
         <img className='absolute right-0 -bottom-24 lg:block hidden' src="/assets/images/webp/form-right-ellipse.webp" alt="right-ellipse" />
