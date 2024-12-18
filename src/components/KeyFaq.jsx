@@ -18,7 +18,7 @@ const KeyFaq = () => {
       <div className='container lg:pt-[82px] sm:pt-12 pt-6 lg:pb-[74px] sm:pb-12 pb-6'>
         <div className='flex lg:flex-row flex-col w-full sm:gap-12 gap-8'>
           <div className='lg:w-[600px] w-full flex max-lg:justify-center lg:sticky h-fit top-4'>
-            <img className='max-w-[600px] w-full rounded-lg' src="/assets/images/webp/faq-women-image.webp" alt="women-image" />
+            <img className='max-w-[600px] pointer-events-none w-full rounded-lg' src="/assets/images/webp/faq-women-image.webp" alt="women-image" />
           </div>
           <div className='lg:w-[555px] w-full'>
             <Heading text={'Key Q&A'} classStyle={'lg:text-start text-center'} />
@@ -70,7 +70,7 @@ const KeyFaq = () => {
                               key={imgIndex}
                               src={imgSrc}
                               alt={`Accordion ${index + 1} Image ${imgIndex + 1}`}
-                              className="w-1/2 h-auto object-cover rounded-md"
+                              className="w-1/2 h-auto object-cover rounded-md pointer-events-none"
                             />
                           ))}
                         </div>
